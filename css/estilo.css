@@ -9,10 +9,9 @@ body{
 }
 
 .logo{
-	width: 130px;
-	height: 60px;
-	float: left;
+	width: 100px;	
 	padding: 8px;
+	border-radius: 30%;
 }
 
 .contenedor{
@@ -94,8 +93,8 @@ body{
 
 
 header nav{
-	width: 90%;
-	max-width: 1000px;
+	width: 100%;
+	max-width: 10000px;
 	margin: 20px auto;
 	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
 
@@ -129,7 +128,7 @@ section{
 	padding: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 280px) {
 	header nav {
 		width: 80%;
 		height: 100%;
